@@ -21,11 +21,13 @@ Okey, this is a big tree... Lets atleast start by marking the function we came f
 
 <img src="screens/4.png" alt="drawing" width="700"/>
 
-By looking at where the leafs of the tree we see that almost everyone leads to the functions I named "decoy_flag", "wrong_input" and "tiny_mistake".
+By looking at where the leafs of the tree goes we see that almost everyone leads to the functions I named "decoy_flag", "wrong_input" and "tiny_mistake".
 
 <img src="screens/6.png" alt="drawing" width="500"/>
 
 But there is one that goes somewhere else. So this is probably where we want to go.
+
+<img src="screens/6.png" alt="drawing" width="500"/>
 
 # More debugging!
 Let's try to walk through the execution.
