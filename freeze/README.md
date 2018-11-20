@@ -33,6 +33,7 @@ Getting closer, but the file we get is labeled as data. The file is a .pyc file 
 With a little help from https://www.fortinet.com/blog/threat-research/python-based-malware-uses-nsa-exploit-to-propagate-monero--xmr--.html the header of the file was fixed. 
 
 When the bytecode is stored inside the executable the header is removed for some reason. The header is the byte-sequence \x03\xF3\x0D\x0A followed by a 4 byte timestamp. So we insert \x03\xF3\x0D\x0A\x00\x00\x00\x00 at the beginning of the file using bless.
+
 <img src="screens/bless.png" alt="drawing" width="500"/>
 
 After this is done we can decompile the .pyc file. 
@@ -46,8 +47,10 @@ If we just change the if statement in the file we should get the flag.
 Okey, so this was wierd... After we solved the challenge an announcement came up telling that there could be problems solving the challenge if you weren't in America. Luckily one of my teammates figured out that we could probably bruteforce it as it looks like the problem could only be because of some time-issue. 
 
 Using the fact that we know the flag will start with "RITSEC{" we try by changing the last 5 numbers in the key and then print the decrypted message only if it contains RITSEC{. 
+
 <img src="screens/bruteforce.png" alt="drawing" width="500"/>
 
 This is the output of the script, with the correct flag at the top!
+
 <img src="screens/flag.png" alt="drawing" width="500"/>
 
