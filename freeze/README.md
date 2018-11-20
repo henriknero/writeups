@@ -1,5 +1,5 @@
 # Freeze writeup RITSEC
-This challenge was solved with @ludvigknutsmark
+This challenge was solved with https://github.com/ludvigknutsmark
 
 <img src="screens/chall.png" alt="drawing" width="500"/>
 
