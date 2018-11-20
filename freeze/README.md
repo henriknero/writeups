@@ -1,5 +1,6 @@
 # Freeze writeup RITSEC
 This challenge was solved with @ludvigknutsmark
+
 <img src="screens/chall.png" alt="drawing" width="500"/>
 
 In this challenge we are supplied with the two files:
@@ -7,6 +8,7 @@ In this challenge we are supplied with the two files:
 * libpython2.7.so.1.0
 
 Doing file on the executables gives us the following:
+
 <img src="screens/file.png" alt="drawing" width="500"/>
 
 The fact that the program uses a python-library is a strong indication that the program is some kind of compiled python program. Let's further investigate.
