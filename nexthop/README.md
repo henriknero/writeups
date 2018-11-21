@@ -1,4 +1,4 @@
-# From our friend at nexthop! 
+# From our friends at nexthop! 
 ## Forensics challenge at RITSEC
 
 <img src="screens/chall.png" alt="drawing" width="500"/>
