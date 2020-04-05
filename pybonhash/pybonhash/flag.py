@@ -1,0 +1,1 @@
+key=list(map(ord, "midnight{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}"))
