@@ -30,7 +30,7 @@ io.sendline(array)
 io.interactive()
 
 ```
-<img src=https://github.com/henriknero/writeups/tree/master/pwn3/screenshot_1.png>
+![](screenshot_1.png)
 
 So we have can overwrite the pc with the bufferoverflow, neat. We also see that we have space for some ropping looking at the stack-pointer. Now we just need to find a good gadget. We likely want to find system. 
 
